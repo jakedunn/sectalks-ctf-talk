@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Presentation</title>
+	<title>nomad</title>
 </svelte:head>
 
 <Slides />

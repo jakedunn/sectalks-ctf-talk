@@ -9,7 +9,13 @@ const config = {
 	preprocess: [
 		vitePreprocess(),
 		preprocess({
-			postcss: true
+			postcss: true,
+			typescript: {
+				compilerOptions: {
+					importsNotUsedAsValues: 'remove',
+					preserveValueImports: false
+				}
+			}
 		})
 	],
 
