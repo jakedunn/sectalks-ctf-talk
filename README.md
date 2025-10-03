@@ -5,5 +5,5 @@
 ✍️ https://joyofcode.xyz/beautiful-presentations-with-svelte
 
 
-`npm install`
-`npm run dev`
+* `npm install`
+* `npm run dev`
